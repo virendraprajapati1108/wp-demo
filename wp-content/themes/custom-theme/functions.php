@@ -17,6 +17,7 @@ add_action('init', 'mytheme_register_menus');
 /** Add requesr file for custom code */
 require_once get_template_directory() . '/inc/custom-post-types.php';
 require_once get_template_directory() . '/inc/custom-ajax.php';
+require_once get_template_directory() . '/inc/rest-api.php';
 
 /**
  * Enqueue scripts and styles.
